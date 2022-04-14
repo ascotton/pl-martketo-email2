@@ -1,0 +1,43 @@
+{{!-- This is the base layout for your project, and will be used on every page. --}}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+    <link rel="stylesheet" type="text/css" href="{{root}}css/app.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta class='mktoString' mktoModuleScope='true' id='ImageURL' mktoName='Image URL' default='http://www.presencelearning.com/app/uploads/2016/12/smiling2.jpg'>
+    <meta class='mktoString' mktoModuleScope='true' id='buttonlink' mktoName='buttonlink' default='http://www.presencelearning.com' allowHTML='true'>
+    <meta class='mktoString' mktoModuleScope='true' id='buttontext' mktoName='buttontext' default='Read More'>
+    <meta class='mktoString' mktoModuleScope='true' id='buttonlinktwo' mktoName='buttonlinktwo' default='http://www.presencelearning.com' allowHTML='true'>
+    <meta class='mktoString' mktoModuleScope='true' id='buttontexttwo' mktoName='buttontexttwo' default='Read More'>
+    <meta class='mktoString' mktoModuleScope='true' id='buttonlinkthree' mktoName='buttonlinkthree' default='http://www.presencelearning.com' allowHTML='true'>
+    <meta class='mktoString' mktoModuleScope='true' id='buttontextthree' mktoName='buttontextthree' default='Read More'>
+    <meta class='mktoString' mktoModuleScope='true' id='buttonlinkfour' mktoName='buttonlinkfour' default='http://www.presencelearning.com' allowHTML='true'>
+    <meta class='mktoString' mktoModuleScope='true' id='buttontextfour' mktoName='buttontextfour' default='Read More'>
+    <title>{{subject}}</title>
+    <!-- <style> -->
+
+  </head>
+  <body>
+    <span class="preheader">{{description}}</span>
+    <table class="body">
+      <tr>
+        <td class="center" align="center" valign="top">
+          <center>
+            <table class="mktoContainer" id="the_container" width="100%" style="width:100%">
+            {{> body}}
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+  </body>
+</html>

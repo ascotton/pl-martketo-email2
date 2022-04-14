@@ -1,0 +1,224 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@media only screen and (min-width: 816px) {
+  .floatleft {
+    margin: 0 20px 10px 0 !important;
+  }
+  .floatright {
+    margin: 0 0 10px 20px !important;
+  }
+}
+@media only screen and (max-width: 815px) {
+  .floatleft, .floatright {
+    margin: 0 0 20px 0 !important;
+  }
+}
+
+.floatleft{
+  display: block;
+  float: left;
+}
+
+.floatright {
+  display: block;
+  float: right;
+}
+
+
+p, li, ul, .center {
+line-height:24px;
+}
+
+ul {
+margin-bottom: 32px;
+margin-left:16px;
+padding-left:0px;
+}
+
+
+.dateplace {
+ font-size:13px;
+  line-height: 15px;
+  color:$white;
+}
+
+.datego {
+ font-size:16px;
+  line-height: 16px;
+  color:$white;
+  font-weight:bold;
+}
+
+.primarytext {
+  line-height:24px;
+  color:$white;
+}
+
+.primaryh1 {
+  font-size: 34px;
+  color:$white;
+  padding: 0px;
+  margin: 0px;
+  line-height: 37px;
+}
+
+.primaryh2 {
+  font-size: 24px;
+    color:$white;
+    padding: 0px;
+  margin: 0px;
+  line-height: 27px;
+}
+
+
+.bg-orange-lightest {
+background-color: $orange-lightest;
+background: $orange-lightest;
+}
+.bg-orange-lighter {
+background-color: $orange-lighter;
+background: $orange-lighter;
+}
+.bg-orange-light {
+background-color: $orange-light !important;
+background: $orange-light !important;
+}
+.bg-orange {
+background-color: $orange !important;
+background: $orange !important;
+}
+.bg-orange-dark{
+background-color: $orange-dark !important;
+background: $orange-dark !important;
+}
+.bg-orange-darkest {
+background-color: $orange-darkest;
+background: $orange-darkest;
+}
+
+.bg-purple-lightest {
+background-color: $purple-lightest;
+background: $purple-lightest;
+}
+.bg-purple-lighter {
+background-color: $purple-lighter;
+background: $purple-lighter;
+}
+.bg-purple-light {
+background-color: $purple-light;
+background: $purple-light;
+}
+.bg-purple {
+background-color: $purple;
+background: $purple;
+}
+.bg-purple-dark{
+background-color: $purple-dark;
+background: $purple-dark;
+}
+.bg-purple-darkest {
+background-color: $purple-darkest;
+background: $purple-darkest;
+}
+
+.bg-grey-lightest {
+background-color: $grey-lightest;
+background: $grey-lightest;
+}
+.bg-grey-lighter {
+background-color: $grey-lighter;
+background: $grey-lighter;
+}
+.bg-grey-light {
+background-color: $grey-light;
+background: $grey-light;
+}
+.bg-grey {
+background-color: $grey !important;
+background: $grey !important;
+}
+.bg-grey-dark{
+background-color: $grey-dark;
+background: $grey-dark;
+}
+.bg-grey-darkest {
+background-color: $grey-darkest;
+background: $grey-darkest;
+}
+
+.white {
+  color:$white;
+}
+
+.orange {
+  color:$orange;
+}
+
+.purple {
+  color:$purple;
+}
+
+.white a:link {
+  color:$white;
+}
+
+a {
+  font-weight:700 !important;
+}
+
+.footer a:link, .footer {
+color: $grey-darkest !important;
+font-size: 12px;
+}
+
+.footer a:link, .footer img {
+display:inline !important;
+
+}
+.footer .fa {
+font-size: 20px;
+}
+.container, tr, td, tr {
+border: 0px !important;
+}
+
+td {
+margin: 0px !important;
+}
+.wrapper .container {
+  box-shadow: none !important;
+  background-color: transparent;
+  border: 0px !important;
+}
+
+h1 {
+
+font-size:34px;
+line-height:34px;
+}
+
+h1.large {
+font-size:50px;
+line-height:50px;
+}
+
+h2 {
+font-size:20px;
+line-height:20px;
+}
+
+h3 {
+text-transform: uppercase;
+font-size:14px;
+line-height:14px;
+}
+
+.demolabel {
+display:inline-block;
+background-color:  $grey-darkest;
+font-size:10px;
+  line-height: 10px;
+color:$white;
+padding:2px;
+}
